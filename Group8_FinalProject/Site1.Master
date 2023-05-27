@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Group8_FinalProject.Site1" ClientIDMode="Static"%>
+
+<!DOCTYPE html>
+
+<html>
+    <head runat="server">
+        <title>Noddy's Toy Store</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+        <script src="Scripts/jquery-1.9.1.min.js"></script>
+        <script src="Scripts/bootstrap.min.js"></script>
+        <link href="Site.css" rel="stylesheet" />
+        <asp:ContentPlaceHolder ID="headPlaceholder" runat="server"></asp:ContentPlaceHolder>
+    </head>
+
+    <body class="vh-100">
+        <header class="min-vh-10">
+            <div class="container mx-0 mw-100">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                        <a href="./Default.aspx">
+                        <img src="Images/logo.png" id="home" /></a>
+                        <h1 class="title">Noddy's Toy Store</h1>
+                    </div>
+                    <div class="links w-50">
+                        <nav class="navbar w-100 p-0">
+                            <ul class="d-flex w-100 justify-content-around align-content-end">
+                                <li class="list-unstyled" runat="server"><a class="text-decoration-none fw-bold" href="/Default">Home </a></li>
+                                <li class="list-unstyled" runat="server"><a class="text-decoration-none fw-bold" href="/Login">Login </a></li>
+                                <li class="list-unstyled" runat="server"><a class="text-decoration-none fw-bold" href="/Toys">Toys </a></li>
+                                <li class="list-unstyled" runat="server"><a class="text-decoration-none fw-bold" href="/Cart">Cart </a></li>
+                                <li class="list-unstyled" runat="server"><a class="text-decoration-none fw-bold" href="/Admin">Admin </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="h-80">
+            <form id="form1" runat="server" class="form-horizontal">
+                <asp:ContentPlaceHolder ID="mainPlaceholder" runat="server"></asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder ID="ImagePlaceholder" runat="server"></asp:ContentPlaceHolder>
+            </form>
+        </main>
+        <footer class="text-center vh-10">
+            &copy; Noddy's Toy Store - 2023
+        </footer> 
+    </body>
+</html>

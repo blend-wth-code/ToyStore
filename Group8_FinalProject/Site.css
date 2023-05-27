@@ -1,0 +1,30 @@
+﻿#home {
+    display: inline;
+    object-fit: contain;
+    height: 140px;
+    width: fit-content
+}
+
+body {
+    background-color: papayawhip;
+}
+
+a{
+    color:maroon;
+}
+
+
+.title {
+    display: inline-block;
+    font-weight: bold;
+    color: maroon;
+}
+
+main {
+    min-height: 60vh;
+}
+
+footer {
+    padding:20px 0;
+    color: maroon;
+}

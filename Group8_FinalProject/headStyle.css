@@ -1,0 +1,5 @@
+﻿#banner {
+    object-fit: cover;
+    height: 76vh !important;
+    object-position: 0 2%;
+}

@@ -1,0 +1,87 @@
+﻿.dropdownSection{
+    margin: 40px 0 0 0;
+    font-size: 19px;
+}
+
+.toyTable {
+    margin: 10px 0 0 16px;
+    border-collapse: inherit;
+}
+
+table tr, .toyTable tr {
+    border: 1px solid black;
+}
+
+.toyTable tr td .row div:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+.tableHeading {
+    font-weight: bold;
+}
+
+.brandTableCaption{
+    margin: 40px 0 0 14px;
+}
+
+#GridViewBrand{
+    margin: 10px 0 0 16px;
+}
+
+.addBrandCaption{
+    margin: 20px 0 0 16px;
+}
+
+.addBrandSection{
+    margin:20px 0 0 16px;
+}
+
+.nameFieldSection{
+    margin: 0 0 0 60px;
+}
+
+.descSection{
+    margin: 10px 0;
+}
+
+.descFieldSection {
+    margin: 0 0 0 22px;
+}
+
+.edit-button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.pager td {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.pager table tr{
+    border:none;
+}
+
+
+.toyGridCaption {
+    margin: 0 0 0 16px;
+}
+
+.toyGridSection {
+    margin: 20px 0 0 5px;
+}
+
+.my-command-field {
+    margin-right: 20px;
+}
